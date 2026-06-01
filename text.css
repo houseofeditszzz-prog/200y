@@ -1,12 +1,12 @@
 body,
 input,
 button {
-  color: #5c4c54;
+  color: #261c21;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-  color: #d90070;
+  color: #c92b79;
   text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ a:hover {
   left: 590px;
   width: 170px;
   color: #fff;
-  font: italic 10px/1.2 Georgia, "Times New Roman", serif;
+  font: italic 700 10px/1.2 Georgia, "Times New Roman", serif;
   text-align: center;
 }
 
@@ -60,35 +60,45 @@ button {
 
 .widget,
 .widget a {
-  color: #db1275;
+  color: #c94782;
   font-size: 10px;
   line-height: 1.35;
 }
 
 .post h1 {
-  margin: 0 0 1px;
-  color: #e00472;
-  font: 700 22px/1.05 Arial, Helvetica, sans-serif;
+  margin: 0 0 22px;
+  color: #c12d78;
+  font: 700 22px/1.04 Arial, Helvetica, sans-serif;
 }
 
-.post time {
-  display: block;
-  margin-bottom: 10px;
-  color: #3d3439;
-  font-size: 10px;
+.post h2 {
+  margin: 17px 0 14px;
+  color: #111;
+  font: 700 18px/1.1 Arial, Helvetica, sans-serif;
+}
+
+.post h3 {
+  margin: 0 0 11px;
+  color: #111;
+  font: 700 17px/1.08 Arial, Helvetica, sans-serif;
 }
 
 .post p {
-  margin: 0 0 9px;
-  color: #584a51;
-  font-size: 10px;
-  line-height: 1.3;
+  margin: 0 0 11px;
+  color: #2d252a;
+  font-size: 13px;
+  line-height: 1.22;
 }
 
-.post-meta,
-.post-meta a {
-  color: #584a51;
-  font-size: 10px;
+.post ul {
+  margin: 0 0 0 18px;
+  padding: 0 0 0 15px;
+}
+
+.post li {
+  color: #111;
+  font-size: 14px;
+  line-height: 1.2;
 }
 
 .site-footer p {
@@ -120,10 +130,16 @@ button {
     font-size: clamp(20px, 6vw, 28px);
   }
 
+  .post h2 {
+    font-size: clamp(18px, 5vw, 23px);
+  }
+
+  .post h3 {
+    font-size: clamp(17px, 4.5vw, 21px);
+  }
+
   .post p,
-  .post time,
-  .post-meta,
-  .post-meta a {
+  .post li {
     font-size: 14px;
   }
 
